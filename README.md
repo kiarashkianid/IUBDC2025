@@ -17,6 +17,7 @@ This project explores the use of wearable sensor data and machine learning techn
   - 3-axis accelerometer signals
   - Symptom severity questionnaires
   - Patient metadata
+(for the comprehensive reference list and the original paper look at the manuscript)
 
 ## 🧪 Methods
 
