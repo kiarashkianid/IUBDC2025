@@ -70,9 +70,4 @@ This project explores the use of wearable sensor data and machine learning techn
 - **Charlotte Wong** – University of Toronto  
 - **Kiarash Kianidehkordi** – University of Toronto
 
-## 📄 License
-
-This project is for academic and research use only. Contact the authors for reuse or data access permissions.
-
----
 
