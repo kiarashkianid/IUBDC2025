@@ -66,7 +66,7 @@ This project explores the use of wearable sensor data and machine learning techn
 - t-SNE is sensitive to initialization and parameter choices
 - Clustering interpretation is limited by the nature of extracted features and lack of labeled ground truth
 
-## Video
+## 🎥 Video
 - https://youtu.be/hsJStp7vkmU
 
 ## 👥 Authors
