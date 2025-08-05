@@ -1,15 +1,15 @@
 # Beyond Diagnosis: Enhancing Parkinson’s Disease Classification and Symptom Profiling Using Wearable Data
 
-##Overview
+## Overview
 
 This project explores the use of wearable sensor data and machine learning techniques to improve the diagnosis and symptom profiling of Parkinson’s Disease (PD). By leveraging accelerometer data from Apple Watches and applying both supervised and unsupervised learning techniques, we aim to enhance early detection, classification, and symptom understanding of PD in a real-world context.
 
-##Objectives
+## Objectives
 
 -  **Replicate** a supervised ML pipeline using Bag-of-Symbolic Fourier Approximation Symbols (BOSS) and Support Vector Machine (SVM) for PD classification
 -  **Extend** prior work by applying unsupervised learning to discover tremor-related symptom clusters from accelerometer data
 
-##Dataset
+## Dataset
 
 - **Source**: Parkinson’s Apple Watch Dataset (PADS)
 - **Participants**: 469 individuals with wrist-mounted Apple Watches
@@ -19,9 +19,9 @@ This project explores the use of wearable sensor data and machine learning techn
   - Patient metadata
 (for the comprehensive reference list and the original paper look at the manuscript)
 
-##Methods
+## Methods
 
-###Supervised Classification
+### Supervised Classification
 
 - **Pipeline**: BOSS + SVM
 - **Tasks**:
@@ -29,7 +29,7 @@ This project explores the use of wearable sensor data and machine learning techn
   - PD vs. Differential Diagnoses (DD)
 - **Evaluation**: Nested 5-fold cross-validation
 
-###Unsupervised Symptom Profiling
+### Unsupervised Symptom Profiling
 
 - **Signal Processing**:
   - Compute Euclidean magnitude from 3-axis accelerometer data
@@ -46,28 +46,29 @@ This project explores the use of wearable sensor data and machine learning techn
 - **Visualization**:
   - t-SNE embedding colored by cluster, diagnosis, and disease duration proxy
 
-##Results
+## Results
 
-###Supervised Classification
+### Supervised Classification
 
 | Task      | Accuracy (%) | F1 Score | Precision | Recall |
 |-----------|--------------|----------|-----------|--------|
 | PD vs. HC | 78.0 ± 5.0   | 0.75 ± 0.05 | 0.75 ± 0.07 | 0.77 ± 0.07 |
 | PD vs. DD | 76.1 ± 3.0   | 0.63 ± 0.05 | 0.67 ± 0.14 | 0.63 ± 0.08 |
 
-###Clustering Validity
+### Clustering Validity
 
 - **Silhouette Score**: 0.688
 - **Calinski-Harabasz Index**: 1718.96
 
 
-##Video
+## Video
 - https://youtu.be/hsJStp7vkmU
 
-##Authors
+## Authors
 
 - **Charlotte Wong** – University of Toronto  
 - **Kiarash Kianidehkordi** – University of Toronto
+
 
 
 
